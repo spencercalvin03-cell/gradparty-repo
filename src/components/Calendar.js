@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useApp, formatDate, formatDateLong, formatTime, heatColor, privacyLabel, privacyBadgeClass } from '../context/AppContext';
+import { useApp } from '../context/AppContext';
 
 const DAY_HEADERS = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
 
